@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".TvShowFragmen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#454D9E">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="285dp"
+            android:src="@drawable/untitled2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Sekte Pemuja Kerang"
+            android:textColor="#B9C79E"
+            android:textSize="25sp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tidak ada yang namanya keadilan"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="#B9C79E"/>
+    </LinearLayout>
+
+</FrameLayout>
